@@ -5,7 +5,7 @@ services:
     - docker
 
 before_install:
-    - docker run -t murtuza5689/docker-react-test -f Dockerfile.dev .
+    - docker build -t murtuza5689/docker-react-test -f Dockerfile.dev .
 
 script:
     - docker run -e CI=true murtuza5689/docker-react-test npm run test -- --coverage
