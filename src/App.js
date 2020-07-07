@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          AWS deployed!
+          Finally, I have the react app on AWS!
         </p>
         <a
           className="App-link"
